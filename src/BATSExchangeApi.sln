@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATSExchangeApi.Library", "BATSExchangeApi.Library\BATSExchangeApi.Library.csproj", "{90F6244A-DC0C-401F-B29A-4CB7AC785797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATSExchangeApi.Tests", "BATSExchangeApi.Tests\BATSExchangeApi.Tests.csproj", "{AFD55514-679B-44CF-ABEF-2ED43BA96588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATSExchangeApi.WebService", "BATSExchangeApi.WebService\BATSExchangeApi.WebService.csproj", "{D011F6D8-40FF-43A7-BAD1-789F1CA1C4EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATSExchangeApi.WebService.ServiceModel", "BATSExchangeApi.WebService.ServiceModel\BATSExchangeApi.WebService.ServiceModel.csproj", "{CA4DFADA-D0AA-436E-9246-A250FF43F294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC55E1C4-BFC0-441E-8415-99D8D8E6F5BC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F6244A-DC0C-401F-B29A-4CB7AC785797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F6244A-DC0C-401F-B29A-4CB7AC785797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F6244A-DC0C-401F-B29A-4CB7AC785797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F6244A-DC0C-401F-B29A-4CB7AC785797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD55514-679B-44CF-ABEF-2ED43BA96588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD55514-679B-44CF-ABEF-2ED43BA96588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD55514-679B-44CF-ABEF-2ED43BA96588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD55514-679B-44CF-ABEF-2ED43BA96588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D011F6D8-40FF-43A7-BAD1-789F1CA1C4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D011F6D8-40FF-43A7-BAD1-789F1CA1C4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D011F6D8-40FF-43A7-BAD1-789F1CA1C4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D011F6D8-40FF-43A7-BAD1-789F1CA1C4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4DFADA-D0AA-436E-9246-A250FF43F294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4DFADA-D0AA-436E-9246-A250FF43F294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4DFADA-D0AA-436E-9246-A250FF43F294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4DFADA-D0AA-436E-9246-A250FF43F294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
